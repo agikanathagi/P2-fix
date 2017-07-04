@@ -1,0 +1,46 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+int main ()
+{
+    string Nama;
+    string GolDar;
+    char Bulan[100];
+    char Tempat [100];
+    int Tanggal;
+    int Tahun;
+    int Umur;
+    int Usia;
+
+    cout << "Masukkin Biodata Anda! "<<'\n';
+
+    cout << "Nama             : ";
+    cin >> Nama;
+
+     cout << "Golongan darah  : ";
+    cin >> GolDar;
+
+    cout << "T.T.L.            : "<<endl<<endl;
+
+    cout<<"Tempat                 :";
+    cin>> Tempat;
+
+    cout << "Tanggal              : ";
+    cin >> Tanggal;
+
+    cout << "Bulan                : ";
+    cin >> Bulan;
+
+    cout << "Tahun                : ";
+    cin >> Tahun;
+    system("cls");
+
+    Usia= 2017-Tahun;
+
+    cout << "Nama Anda                   : "<<Nama<<endl;
+    cout << "Golongan darah Anda         : "<<GolDar<<endl;
+    cout << "Tempat/Tanggal Lahir Anda   : "<<Tempat <<",  "<<Tanggal <<"- "<<Bulan<< "- "<<Tahun<<endl;
+    cout << "Umur Anda                   : "<<Usia<<endl;
+
+    return 0;
+}
